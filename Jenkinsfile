@@ -15,18 +15,6 @@ pipeline {
             }
         }
 
-        stage('Debug - check files') {
-            steps {
-                sh '''
-                    echo "Arbeitsverzeichnis:"
-                    pwd
-                    echo "Verfügbare Dateien:"
-                    ls -la
-                    echo "Inhalt von scripts/:"
-                    ls -la scripts/
-                '''
-            }
-        }
 
         stage('Run model training') {
             steps {
