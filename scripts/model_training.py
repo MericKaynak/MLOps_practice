@@ -10,9 +10,9 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 mlflow.set_tracking_uri("http://localhost:5000/")
 
-train_path = "data/train.csv"
-val_path = "data/validation.csv"
-test_path = "data/test.csv"
+train_path = "../data/train.csv"
+val_path = "../data/validation.csv"
+test_path = "../data/test.csv"
 
 # Daten laden (dieser Teil bleibt gleich)
 train_data = pd.read_csv(train_path)
