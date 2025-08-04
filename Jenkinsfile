@@ -31,7 +31,7 @@ pipeline {
         stage('Run model training') {
             steps {
                 // Falls das Skript z. B. scripts/model_training.py heißt:
-                sh 'uv run python scripts/modeltraining.py'
+                sh 'uv run python scripts/model_training.py'
             }
         }
     }
