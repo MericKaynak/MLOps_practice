@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 mlflow.set_tracking_uri("http://localhost:5000/")
 repo = ("/home/meric/PycharmProjects/mlops_practice")
-version = "v1"
+version = "v2"
 
 data_train_url = dvc.api.get_url(
     path="data/train.csv",
