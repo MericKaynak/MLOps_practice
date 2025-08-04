@@ -10,8 +10,8 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 mlflow.set_tracking_uri("http://localhost:5000/")
-repo = "/home/meric/PycharmProjects/MLOps_practice"
-version = "v2"
+repo = ("/home/meric/PycharmProjects/mlops_practice")
+version = "v1"
 
 data_train_url = dvc.api.get_url(
     path="data/train.csv",
