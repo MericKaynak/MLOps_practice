@@ -11,6 +11,6 @@ dependencies = [
   "scikit-learn",
   "mlflow",
   "optuna",
-  "optuna[mlflow]",
+  "optuna",
   "dvc"
 ]
