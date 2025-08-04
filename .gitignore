@@ -1,0 +1,8 @@
+./data/test.csv
+./data/val.csv
+./data/train.csv
+
+.venv
+.idea
+
+mlruns/
