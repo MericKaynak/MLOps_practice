@@ -6,3 +6,7 @@
 .idea
 
 mlruns/
+.env
+mlartifacts/
+
+
